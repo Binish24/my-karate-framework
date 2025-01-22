@@ -13,7 +13,7 @@ public class TestRunner {
     private final int THREAD_COUNT = 5;  //TEST CASES NUMBER
 
     private String getTags() {
-       return System.getProperty("karate.tags","@coveredAllAspectsOfUsers");
+       return System.getProperty("karate.tags","@generateTokenForUser");
        // return System.getProperty("karate.tags","@using_3"); sometime we can targeted of the specific keywords in the scenario
 
     }

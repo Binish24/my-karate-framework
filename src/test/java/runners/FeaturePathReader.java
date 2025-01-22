@@ -35,6 +35,8 @@ public class FeaturePathReader {
         featurePaths.add("classpath:features/deleteuser_jan15.feature");
         featurePaths.add("classpath:features/delete_get_users_jan15.feature");
         featurePaths.add("classpath:features/create_get_update_delete_requests_jan15.feature");
+        featurePaths.add("classpath:features/bookstore/bookstore.feature");
+        featurePaths.add("classpath:features/bookstore/generateusertoken.feature");
 
 
     }
